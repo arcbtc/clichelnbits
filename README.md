@@ -7,7 +7,9 @@ Quick install for setting up LNbits on a cheap VPS runining a lite-node and requ
 ![image](https://user-images.githubusercontent.com/33088785/182130029-7f063ec4-f7fe-4263-9ed9-00d127f047cf.png)
 
 https://github.com/btcontract/hosted-channels-rfc
+
 https://github.com/lnbits/lnbits-legend
+
 https://github.com/fiatjaf/cliche
 
 ## Installation
