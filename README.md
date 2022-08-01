@@ -10,7 +10,6 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
 
 #### Screen 1
     screen -S lnbits
-    cd .
     git clone https://github.com/lnbits/lnbits-legend.git
     cd lnbits-legend/
     curl -sSL https://install.python-poetry.org | python3 -
