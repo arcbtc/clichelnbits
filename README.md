@@ -34,7 +34,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     export PATH="/home/ubuntu/.local/bin:$PATH"
     
     screen -S lnbits
-    
+
     /home/ubuntu/.local/bin/poetry install
     mkdir lnbits/data 
     
