@@ -12,6 +12,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     git clone https://github.com/lnbits/lnbits-legend.git
     cd lnbits-legend/
     curl -sSL https://install.python-poetry.org | python3 -
+    export PATH="/home/ubuntu/.local/bin:$PATH"
     poetry install 
     mkdir data 
     
