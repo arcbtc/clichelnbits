@@ -35,7 +35,6 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     
     screen -S lnbits
     
-    poetry env use 3.9
     poetry install 
     mkdir data 
     
