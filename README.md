@@ -35,7 +35,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     
     screen -S lnbits
     
-    poetry install 
+    /home/ubuntu/.local/bin/poetry install
     mkdir data 
     
     LNBITS_BACKEND_WALLET_CLASS=ClicheWallet
