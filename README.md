@@ -9,7 +9,6 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
 ## Installation
 
 #### Screen 1
-    screen -S lnbits
     git clone https://github.com/lnbits/lnbits-legend.git
     cd lnbits-legend/
     curl -sSL https://install.python-poetry.org | python3 -
@@ -20,26 +19,32 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     LNBITS_DATA_FOLDER="./data"
     cp .env.example .env # You can edit more variables in .env if you like 'sudo nano .env'
     
+    screen -S lnbits
+    
     poetry lnbits run
 “Ctrl-A” and “d” to exit screen
 
 #### Screen 2
-    screen -S cliche
     wget https://github.com/fiatjaf/cliche/releases/download/v0.4.5/cliche-linux.bin.tar.gz
-    tar -xf cliche-linux.bin.tar.gz 
+    tar -xf cliche-linux.bin.tar.gz
+    
+    screen -S cliche
+    
     ./cliche # You'll get an error, use the wordlist it provides
     ./cliche -Dcliche.seed="egg turtle office supply visual wheat farm find wall coral thumb scrap"
     request-hc --port 80 --host 134.209.228.207 --pubkey 02cd1b7bc418fac2dc99f0ba350d60fa6c45fde5ab6017ee14df6425df485fb1dd
 “Ctrl-A” and “d” to exit screen
 
 #### Screen 3
-    screen -S caddy
     sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
     curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
     curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
     sudo apt update
     sudo apt install caddy
     caddy stop
+    
+    screen -S caddy
+    
     caddy reverse-proxy --from yourdomain.com --to 127.0.0.1:5000 # Change yourdomain.com
 “Ctrl-A” and “d” to exit screen
 
