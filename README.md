@@ -1,4 +1,4 @@
-# clichelnbits
+# Cliche "lite-node" LNbits Legend Install
 
 #### Screen 1
     screen
