@@ -1,16 +1,11 @@
 # Cliche "lite-node" & LNbits Legend Install on a VPS
 
-Quick install for setting up LNbits on a cheap VPS runining a lite-node and requesting a hosted channel for instant inbound liquidity
+Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">LNbits Legend</a> on a cheap VPS runining a <a href="
+https://github.com/fiatjaf/cliche">lite-node</a> and requesting a <a href="https://github.com/btcontract/hosted-channels-rfc">hosted channel<a/> for instant inbound liquidity
 
 * Get a cheap Ubuntu 20.04 VPS at <a href="https://www.lunanode.com/">Lunanode</a>
 * Go register a domain and set an "A" reord for your Lunanode VPS ip address
 ![image](https://user-images.githubusercontent.com/33088785/182130029-7f063ec4-f7fe-4263-9ed9-00d127f047cf.png)
-
-https://github.com/btcontract/hosted-channels-rfc
-
-https://github.com/lnbits/lnbits-legend
-
-https://github.com/fiatjaf/cliche
 
 ## Installation
 
