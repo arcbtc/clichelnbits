@@ -1,6 +1,8 @@
 # Cliche "lite-node" & LNbits Legend Install on a VPS
 
-Quick install for setting up Cliche on a cheap VPS
+Quick install for setting up LNbits on a cheap VPS runining a lite-node and requesting a hosted channel for instant inbound liquidity
+> WARNING: Hosted channels are custoidal, but if they steal our money we have a cryptographic proof we can go complain to then with.
+> There are still not many providers of hosted channels. For now we will use this node https://amboss.space/node/02cd1b7bc418fac2dc99f0ba350d60fa6c45fde5ab6017ee14df6425df485fb1dd
 
 * Get a cheap Ubuntu 20.04 VPS at <a href="https://www.lunanode.com/">Lunanode</a>
 * Go register a domain and set an "A" reord for your Lunanode VPS ip address
@@ -24,8 +26,8 @@ Quick install for setting up Cliche on a cheap VPS
     tar -xf cliche-linux.bin.tar.gz 
     ./cliche # You'll get an error, use the wordlist it provides
     ./cliche -Dcliche.seed="egg turtle office supply visual wheat farm find wall coral thumb scrap"
-“Ctrl-A” and “d”
     request-hc --port 80 --host 134.209.228.207 --pubkey 02cd1b7bc418fac2dc99f0ba350d60fa6c45fde5ab6017ee14df6425df485fb1dd
+“Ctrl-A” and “d”
 
 #### Screen 3
     screen
@@ -38,3 +40,6 @@ Quick install for setting up Cliche on a cheap VPS
     caddy reverse-proxy --from yourdomain.com --to 127.0.0.1:5000
 “Ctrl-A” and “d”
 
+## Useful links
+https://github.com/btcontract/hosted-channels-rfc
+https://github.com/fiatjaf/cliche
