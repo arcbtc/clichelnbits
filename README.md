@@ -1,4 +1,4 @@
-# Cliche Bitcoin Lightning "lite-node" & LNbits Legend Install on a VPS
+# Cliche "lite-node" & LNbits Legend Install on a VPS
 
 Quick install for setting up Cliche on a cheap VPS
 
