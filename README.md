@@ -39,7 +39,7 @@ Quick install for setting up LNbits on a cheap VPS runining a lite-node and requ
     sudo apt update
     sudo apt install caddy
     caddy stop
-    caddy reverse-proxy --from yourdomain.com --to 127.0.0.1:5000 # change yourdomain.com
+    caddy reverse-proxy --from yourdomain.com --to 127.0.0.1:5000 # Change yourdomain.com
 “Ctrl-A” and “d”
 
 ## Useful links
