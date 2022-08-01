@@ -1,7 +1,10 @@
-# Cliche "lite-node" LNbits Legend Install
+# Cliche Bitcoin Lightning "lite-node" & LNbits Legend Install on a VPS
+
+Quick install for setting up Cliche on a cheap VPS
 
 * Get a cheap Ubuntu 20.04 VPS at <a href="https://www.lunanode.com/">Lunanode</a>
-* Go register a domain and set an `A` reord for your Lunanode VPS ip address
+* Go register a domain and set an "A" reord for your Lunanode VPS ip address
+![image](https://user-images.githubusercontent.com/33088785/182130029-7f063ec4-f7fe-4263-9ed9-00d127f047cf.png)
 
 #### Screen 1
     screen
