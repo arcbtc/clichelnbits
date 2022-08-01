@@ -32,14 +32,15 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     
     curl -sSL https://install.python-poetry.org | python3 -
     export PATH="/home/ubuntu/.local/bin:$PATH"
+    
+    screen -S lnbits
+    
     poetry install 
     mkdir data 
     
     LNBITS_BACKEND_WALLET_CLASS=ClicheWallet
     LNBITS_DATA_FOLDER="./data"
     cp .env.example .env # You can edit more variables in .env if you like 'sudo nano .env'
-    
-    screen -S lnbits
     
     poetry lnbits run
 “Ctrl-A” and “d” to exit screen
