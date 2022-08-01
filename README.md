@@ -42,7 +42,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     LNBITS_DATA_FOLDER="./data"
     cp .env.example .env # You can edit more variables in .env if you like 'sudo nano .env'
     
-    poetry lnbits run
+    poetry run lnbits
 “Ctrl-A” and “d” to exit screen
 
 #### Screen 3
