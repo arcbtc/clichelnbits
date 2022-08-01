@@ -22,8 +22,10 @@ Quick install for setting up Cliche on a cheap VPS
     screen
     wget https://github.com/fiatjaf/cliche/releases/download/v0.4.5/cliche-linux.bin.tar.gz
     tar -xf cliche-linux.bin.tar.gz 
+    ./cliche # You'll get an error, use the wordlist it provides
     ./cliche -Dcliche.seed="egg turtle office supply visual wheat farm find wall coral thumb scrap"
 “Ctrl-A” and “d”
+    request-hc --port 80 --host 134.209.228.207 --pubkey 02cd1b7bc418fac2dc99f0ba350d60fa6c45fde5ab6017ee14df6425df485fb1dd
 
 #### Screen 3
     screen
