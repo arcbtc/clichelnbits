@@ -16,7 +16,11 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     curl -sSL https://install.python-poetry.org | python3 -
     poetry install 
     mkdir data 
+    
     LNBITS_BACKEND_WALLET_CLASS=ClicheWallet
+    LNBITS_DATA_FOLDER="./data"
+    cp .env.example .env # You can edit more variables in .env if you like
+    
     poetry lnbits run
 “Ctrl-A” and “d”
 
