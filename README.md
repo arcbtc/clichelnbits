@@ -8,7 +8,7 @@ Quick install for setting up LNbits on a cheap VPS runining a lite-node and requ
 * Go register a domain and set an "A" reord for your Lunanode VPS ip address
 ![image](https://user-images.githubusercontent.com/33088785/182130029-7f063ec4-f7fe-4263-9ed9-00d127f047cf.png)
 
-## Installation instructions 
+## Installation
 
 #### Screen 1
     screen
