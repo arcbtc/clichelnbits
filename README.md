@@ -40,7 +40,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     
     LNBITS_BACKEND_WALLET_CLASS=ClicheWallet
     LNBITS_DATA_FOLDER="./data"
-    # You can edit more variables in .env if you like 'cp .env.example .env' then 'sudo nano .env'
+    # You can edit more optional variables in .env, 'cp .env.example .env' then 'sudo nano .env'
     
     poetry run lnbits
 “Ctrl-A” and “d” to exit screen
