@@ -1,5 +1,8 @@
 # Cliche "lite-node" LNbits Legend Install
 
+* Get a cheap Ubuntu 20.04 VPS at <a href="https://www.lunanode.com/">Lunanode</a>
+* Go register a domain and set an `A` reord for your Lunanode VPS ip address
+
 #### Screen 1
     screen
     cd .
