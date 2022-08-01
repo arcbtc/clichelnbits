@@ -22,7 +22,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     cp .env.example .env # You can edit more variables in .env if you like 'sudo nano .env'
     
     poetry lnbits run
-“Ctrl-A” and “d”
+“Ctrl-A” and “d” to exit screen
 
 #### Screen 2
     screen -S cliche
@@ -31,7 +31,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     ./cliche # You'll get an error, use the wordlist it provides
     ./cliche -Dcliche.seed="egg turtle office supply visual wheat farm find wall coral thumb scrap"
     request-hc --port 80 --host 134.209.228.207 --pubkey 02cd1b7bc418fac2dc99f0ba350d60fa6c45fde5ab6017ee14df6425df485fb1dd
-“Ctrl-A” and “d”
+“Ctrl-A” and “d” to exit screen
 
 #### Screen 3
     screen -S caddy
@@ -42,7 +42,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     sudo apt install caddy
     caddy stop
     caddy reverse-proxy --from yourdomain.com --to 127.0.0.1:5000 # Change yourdomain.com
-“Ctrl-A” and “d”
+“Ctrl-A” and “d” to exit screen
 
 To see the 3 screens created use `screen -ls`, reattach to screens using `screen -r lnbits`, `screen -r cliche`, `screen -r caddy`
 ## Additional
