@@ -9,7 +9,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
 ## Installation
 
 #### Screen 1
-    screen
+    screen -S lnbits
     cd .
     git clone https://github.com/lnbits/lnbits-legend.git
     cd lnbits-legend/
@@ -25,7 +25,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
 “Ctrl-A” and “d”
 
 #### Screen 2
-    screen
+    screen -S cliche
     wget https://github.com/fiatjaf/cliche/releases/download/v0.4.5/cliche-linux.bin.tar.gz
     tar -xf cliche-linux.bin.tar.gz 
     ./cliche # You'll get an error, use the wordlist it provides
@@ -34,7 +34,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
 “Ctrl-A” and “d”
 
 #### Screen 3
-    screen
+    screen -S caddy
     sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
     curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
     curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
@@ -44,7 +44,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     caddy reverse-proxy --from yourdomain.com --to 127.0.0.1:5000 # Change yourdomain.com
 “Ctrl-A” and “d”
 
-To see the 3 screens created use `screen -ls`, to reattach to a screen use `screen -r TheScreenID`
+To see the 3 screens created use `screen -ls`, reattach to screens using `screen -r lnbits`, `screen -r cliche`, `screen -r caddy`
 ## Additional
 
 > *WARNING: Hosted channels are custoidal, but if they steal your money you have a cryptographic proof you can go complain to then with.*
