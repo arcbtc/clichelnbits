@@ -44,7 +44,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     caddy reverse-proxy --from yourdomain.com --to 127.0.0.1:5000 # Change yourdomain.com
 “Ctrl-A” and “d”
 
-To see the 3 screens you have made use `screen -ls`, to reattach to one use `screen -r TheScreenID`
+To see the 3 screens created use `screen -ls`, to reattach to a screen use `screen -r TheScreenID`
 ## Additional
 
 > *WARNING: Hosted channels are custoidal, but if they steal your money you have a cryptographic proof you can go complain to then with.*
