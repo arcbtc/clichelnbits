@@ -24,6 +24,12 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
 #### Screen 2
     git clone https://github.com/lnbits/lnbits-legend.git
     cd lnbits-legend/
+    
+    sudo apt update
+    sudo apt install software-properties-common
+    sudo add-apt-repository ppa:deadsnakes/ppa
+    sudo apt install python3.9
+    
     curl -sSL https://install.python-poetry.org | python3 -
     export PATH="/home/ubuntu/.local/bin:$PATH"
     poetry install 
