@@ -34,6 +34,8 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     export PATH="/home/ubuntu/.local/bin:$PATH"
     
     screen -S lnbits
+    
+    poetry env use python3.9
 
     poetry install
     mkdir lnbits/data 
