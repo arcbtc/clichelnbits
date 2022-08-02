@@ -1,4 +1,4 @@
-# Cliche "lite-node" & LNbits Legend Install on a VPS
+# Guide - Cliche "lite-node"/LNbits Legend on a VPS
 
 Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">LNbits Legend</a> on a cheap VPS runining a <a href="https://github.com/fiatjaf/cliche">Cliche lite-node</a> and requesting a <a href="https://github.com/btcontract/hosted-channels-rfc">hosted channel</a> for instant inbound liquidity! 👀 🚀
 
