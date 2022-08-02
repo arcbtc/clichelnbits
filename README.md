@@ -10,7 +10,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
 
 
 
-#### Screen 1
+#### Screen 1 - Cliche (the lite-node)
     wget https://github.com/fiatjaf/cliche/releases/download/v0.4.5/cliche-linux.bin.tar.gz
     tar -xf cliche-linux.bin.tar.gz
     
@@ -21,7 +21,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     request-hc --port 80 --host 134.209.228.207 --pubkey 02cd1b7bc418fac2dc99f0ba350d60fa6c45fde5ab6017ee14df6425df485fb1dd
 “Ctrl-A” and “d” to exit screen
 
-#### Screen 2
+#### Screen 2 - LNbits
     git clone https://github.com/lnbits/lnbits-legend.git
     cd lnbits-legend/
     
@@ -47,7 +47,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     poetry run lnbits
 “Ctrl-A” and “d” to exit screen
 
-#### Screen 3
+#### Screen 3 - Caddy (the reverse proxy and https server)
     sudo apt install -y debian-keyring debian-archive-keyring apt-transport-https
     curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/gpg.key' | sudo gpg --dearmor -o /usr/share/keyrings/caddy-stable-archive-keyring.gpg
     curl -1sLf 'https://dl.cloudsmith.io/public/caddy/stable/debian.deb.txt' | sudo tee /etc/apt/sources.list.d/caddy-stable.list
