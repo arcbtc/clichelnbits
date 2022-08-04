@@ -58,7 +58,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     
     screen -S caddy
     
-    caddy reverse-proxy --from yourdomain.com --to 127.0.0.1:5000 # Change yourdomain.com
+    sudo caddy reverse-proxy --from yourdomain.com --to 127.0.0.1:5000 # Change yourdomain.com
 “Ctrl-A” and “d” to exit screen
 
 To see the 3 screens created use `screen -ls`, reattach to screens using `screen -r lnbits`, `screen -r cliche`, `screen -r caddy`
