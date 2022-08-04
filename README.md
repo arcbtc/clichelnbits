@@ -38,7 +38,7 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     poetry env use python3.9
 
     poetry install
-    mkdir lnbits/data 
+    mkdir data 
     
 
     cp .env.example .env
