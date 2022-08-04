@@ -42,8 +42,8 @@ Quick install for setting up <a href="https://github.com/lnbits/lnbits-legend">L
     
 
     cp .env.example .env
-    sudo nano .env'
-    # Set `LNBITS_BACKEND_WALLET_CLASS=ClicheWallet` and `LNBITS_DATA_FOLDER="./data"`
+    sudo nano .env
+    # Set `LNBITS_BACKEND_WALLET_CLASS=ClicheWallet` and `LNBITS_DATA_FOLDER="./data"'
     
     poetry run lnbits
 “Ctrl-A” and “d” to exit screen
